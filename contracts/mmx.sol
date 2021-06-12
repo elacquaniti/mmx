@@ -6,7 +6,7 @@ contract mmx is Ownable {
     // Public variables of the token
     string public name = "MNX";
     string public symbol = "MNX";
-    uint8 public decimals = 2;
+    uint8 public decimals = 6;
     uint256 public INITIAL_SUPPLY = 20000000000;
 
     // 18 decimals is the strongly suggested default, avoid changing it
